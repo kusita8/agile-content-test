@@ -1,0 +1,151 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:sonarjs/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "ignorePatterns": [
+    "**/__tests__/**",
+    "**/__mocks__/**",
+    "**/testUtils/**",
+    "setupTests.ts",
+    "**/generate_component/**",
+    "build/**"
+  ],
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "react-hooks",
+    "import",
+    "sonarjs",
+    "hooks",
+    "simple-import-sort",
+    "no-relative-import-paths"
+  ],
+  "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "eol-last": ["error", "always"],
+    "operator-linebreak": "off",
+    "import/prefer-default-export": "off",
+    "react/prop-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "react/react-in-jsx-scope": "off",
+    "no-shadow": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-shadow": "error",
+    "indent": ["error", 2],
+    "react/jsx-indent": [
+      "error",
+      2,
+      {
+        "checkAttributes": true,
+        "indentLogicalExpressions": true
+      }
+    ],
+    "react/jsx-indent-props": ["error", 2],
+    "react/display-name": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_"
+      }
+    ],
+    "@typescript-eslint/no-non-null-assertion": "error",
+    "simple-import-sort/imports": "error",
+    "jsx-quotes": ["error", "prefer-double"],
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "ignoreUrls": true
+      }
+    ],
+    "no-console": "error",
+    "no-duplicate-imports": "error",
+    "object-curly-spacing": ["error", "always"],
+    "quotes": ["error", "double"],
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [".ts", ".tsx"]
+      }
+    ],
+    "hooks/sort": [
+      2,
+      {
+        // prettier-ignore
+        "groups": [
+          "useReducer", 
+          "useContext", 
+          "useState", 
+          "useRef", 
+          "useNavigate",
+          "useSearchParams",
+          "useDispatch", 
+          "useToast", 
+          "useModalContext",
+          "useFreeSpinsContext", 
+          "useCallback",
+          "useEffect"
+        ]
+      }
+    ],
+    "no-restricted-imports": ["error", { "patterns": ["**/__mocks__/**"] }],
+    "max-lines-per-function": ["error", { "max": 80 }],
+    "react/jsx-curly-brace-presence": ["error", { "props": "never", "children": "never" }],
+    "no-relative-import-paths/no-relative-import-paths": [
+      "error",
+      { "allowSameFolder": true, "rootDir": "src", "prefix": "src" }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
+      "rules": {
+        "simple-import-sort/imports": [
+          "error",
+          {
+            // prettier-ignore
+            "groups": [
+              // Packages `react` related packages come first.
+              ["^react", "^((?!src)\\w)*$", "^@\\w"],
+              // Internal packages.
+              ["^src"],
+              // Side effect imports.
+              ["^\\u0000"],
+              // Parent imports. Put `..` last.
+              ["^\\.\\.(?!/?$)", "^\\.\\./?$"],
+              // Other relative imports. Put same-folder imports and `.` last.
+              ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"],
+              // Style imports.
+              ["^.+\\.?(css|scss)$"]
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

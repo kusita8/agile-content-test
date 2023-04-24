@@ -1,0 +1,46 @@
+{
+  "name": "agile-content-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint -c .eslintrc.json --ext .js,.jsx,.ts,.tsx .",
+    "lint:fix": "yarn lint --fix",
+    "preview": "vite preview",
+    "gc": "node scripts/generate_component",
+    "test": "vitest --watch=false",
+    "lint:staged": "lint-staged"
+  },
+  "dependencies": {
+    "husky": "^8.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@types/node": "^18.16.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "eslint": "^8.39.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-hooks": "^0.4.3",
+    "eslint-plugin-no-relative-import-paths": "^1.5.2",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-sonarjs": "^0.19.0",
+    "eslint-webpack-plugin": "^4.0.1",
+    "lint-staged": "^13.2.1",
+    "sass": "^1.62.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.0",
+    "vitest": "^0.30.1"
+  }
+}
