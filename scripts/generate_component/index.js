@@ -1,6 +1,7 @@
-const fs = require("fs");
-const { component, styles, test } = require("./templates/default.js");
-const readline = require("readline");
+import fs from "fs";
+import { component, styles, test } from "./templates/default.js";
+import readline from "readline";
+
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
@@ -41,7 +42,10 @@ const createFolder = (fileName) =>
 const getUserConfig = async () => {
   try {
     const name = await ask("Name: ", "Please provide a name");
-    const folder = await ask("Folder ej: (atoms, molecules, etc): ", "Please provide a folder");
+    const folder = await ask(
+      "Folder ej: (atoms, molecules, etc): ",
+      "Please provide a folder"
+    );
 
     return { name, folder };
   } catch {
@@ -62,7 +66,10 @@ const getUserConfig = async () => {
 
     await createFile(`${componentFolder}/${name}.tsx`, component(name));
     await createFile(`${componentFolder}/${name}.scss`, styles(name));
-    await createFile(`${componentFolder}/__tests__/${name}.test.tsx`, test(name));
+    await createFile(
+      `${componentFolder}/__tests__/${name}.test.tsx`,
+      test(name)
+    );
     console.log(`Component create successfully in: ${componentFolder}`);
     process.exit(0);
   } catch (e) {

@@ -1,0 +1,52 @@
+.skeleton {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  & > div {
+    height: 2rem;
+    background: var(--grey-a);
+    border-radius: 0.2rem;
+    overflow: hidden;
+    position: relative;
+  }
+
+  & > div::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(
+      to right,
+      var(--grey-a) 0%,
+      rgba(0, 0, 0, 0.07) 20%,
+      var(--grey-a) 40%,
+      var(--grey-a) 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 450px 400px;
+    animation: shimmer 2s linear infinite;
+  }
+
+  & > div:nth-child(1) {
+    width: 40%;
+  }
+
+  & > div:nth-child(2) {
+    width: 60%;
+    height: 3rem;
+  }
+
+  & > div:nth-child(3) {
+    width: 100%;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -100rem 0;
+  }
+  100% {
+    background-position: 100rem 0;
+  }
+}

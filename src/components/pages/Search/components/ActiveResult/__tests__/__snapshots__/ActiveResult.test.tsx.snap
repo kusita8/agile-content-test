@@ -1,0 +1,87 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ActiveResult > it should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="layout"
+  >
+    <div
+      class="header"
+    >
+      <p>
+        <b>
+          Agile content
+        </b>
+         Frontend test
+      </p>
+      <div
+        class="header__right"
+      >
+        <svg
+          class="gb_p"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+          />
+        </svg>
+        <div
+          class="header__user"
+        >
+          <img
+            alt="Profile image"
+            src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2231&q=80"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="activeresult"
+    >
+      <div
+        class="activeresult__image"
+      >
+        <img
+          alt="Sphynx"
+          src="https://loremflickr.com/644/362/animals?lock=33027"
+        />
+      </div>
+      <div
+        class="result result--active-display"
+      >
+        <a
+          class="result__link"
+          href="https://serene-brushfire.biz"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="result__url"
+          >
+            https://serene-brushfire.biz
+          </div>
+          <h4>
+            Sphynx
+          </h4>
+        </a>
+        <div
+          class="result__description"
+        >
+          Perferendis libero officiis aspernatur voluptatem repellat eveniet voluptatum nihil. Blanditiis est facere eum illum voluptatum vitae harum repudiandae mollitia. Natus quod optio adipisci ipsa occaecati autem labore. Vitae necessitatibus dicta possimus recusandae. Illum illum quae commodi quis dolores doloremque quibusdam voluptas. Necessitatibus nihil dolores nisi veniam numquam.
+        </div>
+      </div>
+    </div>
+    <div
+      class="footer"
+    >
+      <p>
+        © Google 2023
+      </p>
+      <p>
+        version: 0.0.0
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

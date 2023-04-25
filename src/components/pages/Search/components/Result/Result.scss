@@ -1,0 +1,35 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+
+  &:not(.result--active-display) {
+    .result__description {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+  }
+
+  &__url {
+    font-size: 1.4rem;
+    color: var(--grey-b);
+  }
+
+  &__link {
+    text-align: left;
+    h4 {
+      font-size: 2rem;
+      color: var(--blue-a);
+      font-weight: 500;
+      margin-top: 0.6rem;
+    }
+  }
+
+  &__description {
+    font-size: 1.4rem;
+    color: var(--grey-b);
+  }
+}

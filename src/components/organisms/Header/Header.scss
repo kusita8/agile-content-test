@@ -1,0 +1,38 @@
+.header {
+  padding: 1.6rem 2rem;
+  border-bottom: 0.1rem solid var(--grey-a);
+
+  @media only screen and (min-width: 600px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+
+    @media only screen and (max-width: 600px) {
+      display: none;
+    }
+
+    svg {
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+  }
+
+  &__user {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 3.2rem;
+    height: 3.2rem;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

@@ -1,5 +1,5 @@
 // component.tsx
-exports.component = (name) => `
+export const component = (name) => `
 import { FC } from 'react';
 import './${name}.scss'
 
@@ -11,12 +11,12 @@ export const ${name}: FC<${name}Props> = () => {
 `;
 
 // styles.scss
-exports.styles = (name) => `
+export const styles = (name) => `
   .${name.toLowerCase()} {}
 `;
 
 // component.test.tsx
-exports.test = (name) => `
+export const test = (name) => `
 import { renderWithProviders } from "src/tests/renderWithProviders";
 import { ${name} } from '../${name}';
 

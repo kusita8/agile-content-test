@@ -22,7 +22,6 @@
     "sourceType": "module"
   },
   "ignorePatterns": [
-    "**/__tests__/**",
     "**/__mocks__/**",
     "**/testUtils/**",
     "setupTests.ts",
@@ -115,7 +114,10 @@
     ],
     "no-restricted-imports": ["error", { "patterns": ["**/__mocks__/**"] }],
     "max-lines-per-function": ["error", { "max": 80 }],
-    "react/jsx-curly-brace-presence": ["error", { "props": "never", "children": "never" }],
+    "react/jsx-curly-brace-presence": [
+      "error",
+      { "props": "never", "children": "never" }
+    ],
     "no-relative-import-paths/no-relative-import-paths": [
       "error",
       { "allowSameFolder": true, "rootDir": "src", "prefix": "src" }

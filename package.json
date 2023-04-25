@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "vite",
     "build": "tsc && vite build",
     "lint": "eslint -c .eslintrc.json --ext .js,.jsx,.ts,.tsx .",
     "lint:fix": "yarn lint --fix",
@@ -14,11 +15,16 @@
     "lint:staged": "lint-staged"
   },
   "dependencies": {
+    "@tanstack/react-query": "^4.29.5",
     "husky": "^8.0.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0",
+    "vite-plugin-svgr": "^2.4.0",
+    "zustand": "^4.3.7"
   },
   "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@types/node": "^18.16.0",

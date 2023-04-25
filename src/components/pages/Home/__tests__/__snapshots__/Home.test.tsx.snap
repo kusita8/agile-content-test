@@ -1,0 +1,112 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Home > it should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="layout"
+  >
+    <div
+      class="header"
+    >
+      <p>
+        <b>
+          Agile content
+        </b>
+         Frontend test
+      </p>
+      <div
+        class="header__right"
+      >
+        <svg
+          class="gb_p"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+          />
+        </svg>
+        <div
+          class="header__user"
+        >
+          <img
+            alt="Profile image"
+            src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2231&q=80"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="home"
+    >
+      <div
+        class="home__inner"
+      >
+        <div
+          class="home__logo"
+        >
+          <img
+            alt="Google logo"
+            src="/src/assets/google-logo.png"
+          />
+        </div>
+        <div
+          class="search search--medium"
+        >
+          <form
+            id="search-form"
+          >
+            <svg
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+              />
+            </svg>
+            <input
+              data-testid="search-input"
+              placeholder=" "
+              type="text"
+              value=""
+            />
+            <button
+              type="button"
+            >
+              <svg
+                focusable="false"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
+        <button
+          class="button"
+          data-testid="button"
+          disabled=""
+          form="search-form"
+          type="submit"
+        >
+          Buscar
+        </button>
+      </div>
+    </div>
+    <div
+      class="footer"
+    >
+      <p>
+        © Google 2023
+      </p>
+      <p>
+        version: 0.0.0
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

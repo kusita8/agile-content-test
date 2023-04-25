@@ -1,3 +1,12 @@
+:root {
+  --header-height: 6.5rem;
+  --footer-height: 4.85rem;
+  --grey-a: #eeeeee;
+  --grey-b: #737373;
+  --grey-c: #cfcfcf;
+  --blue-a: blue;
+}
+
 *,
 *::before,
 *::after {
@@ -21,6 +30,8 @@ a {
 }
 
 button {
-  background: none;
+  background: transparent;
   border: none;
+  cursor: pointer;
+  padding: 0;
 }
