@@ -7,6 +7,8 @@ import { Path } from "src/routes/Path";
 
 import "./Home.scss";
 
+import googleLogo from "/src/assets/google-logo.png";
+
 export const Home = () => {
   const [search, setSearch] = useState("");
   const navigate = useNavigate();
@@ -24,7 +26,7 @@ export const Home = () => {
     <div className="home">
       <div className="home__inner">
         <div className="home__logo">
-          <img src="/src/assets/google-logo.png" alt="Google logo" />
+          <img src={googleLogo} alt="Google logo" />
         </div>
         <Search onSearch={setSearch} onSubmit={handleSubmit} />
         <Button disabled={!search} type="submit" form="search-form">
