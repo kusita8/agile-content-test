@@ -74,7 +74,7 @@ exports[`Header > it should match the snapshot 1`] = `
         © Google 2023
       </p>
       <p>
-        version: 0.0.0
+        version: 0.1.0
       </p>
     </div>
   </div>

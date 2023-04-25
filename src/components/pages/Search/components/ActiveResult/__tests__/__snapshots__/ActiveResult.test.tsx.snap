@@ -43,8 +43,8 @@ exports[`ActiveResult > it should match the snapshot 1`] = `
         class="activeresult__image"
       >
         <img
-          alt="Fribourgeoise"
-          src="https://loremflickr.com/644/362/animals?lock=61760"
+          alt="Standard Schnauzer"
+          src="https://loremflickr.com/644/362/animals?lock=66940"
         />
       </div>
       <div
@@ -52,23 +52,23 @@ exports[`ActiveResult > it should match the snapshot 1`] = `
       >
         <a
           class="result__link"
-          href="https://unsteady-giggle.info"
+          href="http://nutritious-service.com"
           rel="noopener noreferrer"
           target="_blank"
         >
           <div
             class="result__url"
           >
-            https://unsteady-giggle.info
+            http://nutritious-service.com
           </div>
           <h4>
-            Fribourgeoise
+            Standard Schnauzer
           </h4>
         </a>
         <div
           class="result__description"
         >
-          Suscipit porro nisi repellat nostrum. Tenetur eligendi pariatur voluptas quidem unde doloribus quis qui.
+          Itaque esse suscipit debitis. Necessitatibus culpa perspiciatis cum doloribus.
         </div>
       </div>
     </div>
@@ -79,7 +79,7 @@ exports[`ActiveResult > it should match the snapshot 1`] = `
         © Google 2023
       </p>
       <p>
-        version: 0.0.0
+        version: 0.1.0
       </p>
     </div>
   </div>

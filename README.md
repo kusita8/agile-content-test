@@ -2,6 +2,8 @@
 
 Project created with Vite, TypeScript and React
 
+Preview: (https://rk-agile-content-test.netlify.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:

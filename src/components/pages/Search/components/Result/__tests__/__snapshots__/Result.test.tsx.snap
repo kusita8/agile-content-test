@@ -45,16 +45,16 @@ exports[`Result > it should match the snapshot 1`] = `
         <div
           class="result__url"
         >
-          https://separate-hosiery.info
+          http://voluminous-ego.com
         </div>
         <h4>
-          Polar bear
+          Japanese common catfish
         </h4>
       </button>
       <div
         class="result__description"
       >
-        Nihil nobis nisi corporis asperiores ad sit laudantium porro. Magni facilis veritatis veniam perferendis nam ullam dicta velit. Iusto eligendi ea ad quam labore architecto voluptatem deserunt eius.
+        Cumque fugiat accusamus. Delectus itaque accusantium. Sunt quas quod reprehenderit corrupti cumque necessitatibus porro ad amet. Delectus eveniet quibusdam. Ratione explicabo facere voluptatum perspiciatis blanditiis.
       </div>
     </div>
     <div
@@ -64,7 +64,7 @@ exports[`Result > it should match the snapshot 1`] = `
         © Google 2023
       </p>
       <p>
-        version: 0.0.0
+        version: 0.1.0
       </p>
     </div>
   </div>

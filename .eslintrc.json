@@ -26,7 +26,8 @@
     "**/testUtils/**",
     "setupTests.ts",
     "**/generate_component/**",
-    "build/**"
+    "build/**",
+    "dist/**"
   ],
   "plugins": [
     "react",
