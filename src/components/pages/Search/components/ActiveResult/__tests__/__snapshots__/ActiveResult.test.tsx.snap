@@ -43,8 +43,8 @@ exports[`ActiveResult > it should match the snapshot 1`] = `
         class="activeresult__image"
       >
         <img
-          alt="Sphynx"
-          src="https://loremflickr.com/644/362/animals?lock=33027"
+          alt="Fribourgeoise"
+          src="https://loremflickr.com/644/362/animals?lock=61760"
         />
       </div>
       <div
@@ -52,23 +52,23 @@ exports[`ActiveResult > it should match the snapshot 1`] = `
       >
         <a
           class="result__link"
-          href="https://serene-brushfire.biz"
+          href="https://unsteady-giggle.info"
           rel="noopener noreferrer"
           target="_blank"
         >
           <div
             class="result__url"
           >
-            https://serene-brushfire.biz
+            https://unsteady-giggle.info
           </div>
           <h4>
-            Sphynx
+            Fribourgeoise
           </h4>
         </a>
         <div
           class="result__description"
         >
-          Perferendis libero officiis aspernatur voluptatem repellat eveniet voluptatum nihil. Blanditiis est facere eum illum voluptatum vitae harum repudiandae mollitia. Natus quod optio adipisci ipsa occaecati autem labore. Vitae necessitatibus dicta possimus recusandae. Illum illum quae commodi quis dolores doloremque quibusdam voluptas. Necessitatibus nihil dolores nisi veniam numquam.
+          Suscipit porro nisi repellat nostrum. Tenetur eligendi pariatur voluptas quidem unde doloribus quis qui.
         </div>
       </div>
     </div>

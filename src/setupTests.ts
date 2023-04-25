@@ -11,3 +11,5 @@ expect.extend(matchers);
 afterEach(() => {
   cleanup();
 });
+
+vi.mock("src/service/Animals");

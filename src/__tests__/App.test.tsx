@@ -1,7 +1,9 @@
+/* eslint-disable no-restricted-imports */
 import { describe, expect, it, vi } from "vitest";
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 
 import { App } from "src/App";
+import { getAnimals } from "src/service/__mocks__/Animals";
 import * as service from "src/service/Animals";
 
 describe("App", () => {
@@ -11,7 +13,7 @@ describe("App", () => {
   });
 
   it("Searches for query", async () => {
-    const mockService = vi.fn();
+    const mockService = vi.fn(getAnimals);
 
     vi.spyOn(service, "getAnimals").mockImplementation(mockService);
 
