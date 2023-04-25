@@ -115,7 +115,7 @@ exports[`Search > it should match the snapshot 1`] = `
         <p>
           Try looking for: 
           <b>
-            insect, fish, horse, crocodilla, bear, cetacean, cow, lion, rabbit, cat, snake, dog, bird.
+            insect, fish, horse, crocodile, bear, cetacean, cow, lion, rabbit, cat, snake, dog, bird.
           </b>
         </p>
       </div>

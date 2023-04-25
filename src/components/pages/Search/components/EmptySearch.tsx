@@ -3,7 +3,7 @@ export const EmptySearch = () => {
     <p>
       Try looking for:{" "}
       <b>
-        insect, fish, horse, crocodilla, bear, cetacean, cow, lion, rabbit, cat,
+        insect, fish, horse, crocodile, bear, cetacean, cow, lion, rabbit, cat,
         snake, dog, bird.
       </b>
     </p>

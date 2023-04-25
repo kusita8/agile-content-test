@@ -13,23 +13,27 @@ export const getAnimal = () => {
   };
 };
 
-export const getAnimals = async (params: Record<string, string>) => {
-  const { query } = params;
-
+const results = [...new Array(2)].map(() => {
   const type = faker.animal.type() as keyof typeof faker.animal;
 
-  return [...new Array(2)]
-    .map(() => ({
-      type: faker.animal.type(),
-      id: faker.datatype.uuid(),
-      url: faker.internet.url(),
-      title: faker.animal[type](),
-      description: faker.lorem.sentences(),
-      image: faker.image.animals(644, 362, true),
-    }))
-    .filter(
-      (animal) =>
-        query &&
-        animal.type.toLocaleLowerCase().includes(query.toLocaleLowerCase())
-    );
+  return {
+    type,
+    id: faker.datatype.uuid(),
+    url: faker.internet.url(),
+    title: faker.animal[type](),
+    description: faker.lorem.sentences(),
+    image: faker.image.animals(644, 362, true),
+  };
+});
+
+export const getAnimals = async (params: Record<string, string>) => {
+  const { query } = params;
+  const lowercaseQuery = query.toLowerCase();
+
+  return results.filter(
+    (animal) =>
+      lowercaseQuery &&
+      (animal.type.toLowerCase().includes(lowercaseQuery) ||
+        animal.title.toLowerCase().includes(lowercaseQuery))
+  );
 };

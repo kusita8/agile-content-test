@@ -43,8 +43,8 @@ exports[`ActiveResult > it should match the snapshot 1`] = `
         class="activeresult__image"
       >
         <img
-          alt="Asiatic Lion"
-          src="https://loremflickr.com/644/362/animals?lock=79410"
+          alt="Asian black bear"
+          src="https://loremflickr.com/644/362/animals?lock=45553"
         />
       </div>
       <div
@@ -52,23 +52,23 @@ exports[`ActiveResult > it should match the snapshot 1`] = `
       >
         <a
           class="result__link"
-          href="https://zigzag-mochi.info"
+          href="http://adored-variation.org"
           rel="noopener noreferrer"
           target="_blank"
         >
           <div
             class="result__url"
           >
-            https://zigzag-mochi.info
+            http://adored-variation.org
           </div>
           <h4>
-            Asiatic Lion
+            Asian black bear
           </h4>
         </a>
         <div
           class="result__description"
         >
-          Earum debitis sapiente quidem. Repellendus voluptatem provident repudiandae libero.
+          Nihil alias nam explicabo placeat ratione. Quidem quaerat consequuntur atque alias fuga aliquid dolorum.
         </div>
       </div>
     </div>
